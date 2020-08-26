@@ -32,10 +32,9 @@ async function gswriteassitanceAlumno(client, data) {
 
 
     const appendOptions = {
-        spreadsheetId: '13Rx5uOgIuobFpT_nfopaIZFZ0Iz9a7nd0k0-cqZdr24',
-        range: 'Asistencia-Alumnos!A1',
-        valueInputOption: 'USER_ENTERED',
-        resource: { values: data},
+        spreadsheetId: '', // Completar con el ID
+        range: '', // Completar con el rango
+        valueInputOption: 'USER_ENTERED',resource: { values: data},
     };
 
     let res = await gsapi.spreadsheets.values.append(appendOptions);
