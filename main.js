@@ -82,7 +82,7 @@ client.on('message', message => {
     if (message.content === '$asistencia') {
         // Utilizamos el id del rol
         // Permite que solo los alumnos puedan utilizar este comando
-        alumno_role_id = "739740728246272042"
+        alumno_role_id = "" // Completar con id de rol de alumno 
         if (message.member.roles.cache.has(alumno_role_id)) {
 
             // Obtenemos la fecha actual

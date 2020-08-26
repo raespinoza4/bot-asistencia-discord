@@ -36,6 +36,9 @@ const appendOptions = {
 ```
 *Nota: El spreadsheetId lo puedes encontrar en el link de tu planilla entre el "/d/" y "/edit", para mas info: [Click aqui](https://developers.google.com/sheets/api/guides/concepts)*
 
+7. Reemplazar la id del rol que va a utilizar en el comando $asistencia en main.js , de lo contrario quitar el "if (message.member.roles.cache.has(alumno_role_id))"
+
+
 7. Finalmente ejecutar
 ```
 node .
@@ -50,6 +53,6 @@ node .
 
 ## Info final
 
-Hecho con 💙 por Rodrigo Espinoza [@raespinoza4](https://github.com/raespinoza4) inicialmente para el ramo "Introduccion a la programación" (IIC1103) en PUC.
+Hecho con 💙 por Rodrigo Espinoza 🦊 [@raespinoza4](https://github.com/raespinoza4) inicialmente para el ramo "Introduccion a la programación" (IIC1103) en PUC.
 
 Agradecimientos especiales a la guia https://discordjs.guide/ !
