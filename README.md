@@ -34,6 +34,8 @@ const appendOptions = {
     resource: { values: data},
 };
 ```
+*Nota: El spreadsheetId lo puedes encontrar en el link de tu planilla entre el "/d/" y "/edit", para mas info: [Click aqui](https://developers.google.com/sheets/api/guides/concepts)
+
 7. Finalmente ejecutar
 ```
 node .
